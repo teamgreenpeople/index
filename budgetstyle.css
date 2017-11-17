@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+p, ul {
+	padding: 0;
+	margin: 0;
+}
+
+.heading {
+	background: white;
+	height: 100px;
+}
+
+.form {
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	background: white;
+}
+
+.instruction {
+	color: black;
+}
+
+li {
+	list-style: none;
+	margin: 20px 0;
+}
+
+.question_label {
+	font-size: 24px;
+	color: black;
+}
+.question_description {
+	margin: 10px 0;
+	color: black;
+}
+hr {
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid green;
+    margin: 1em 0;
+    padding: 0; 
+}
+.question_value {
+	border-radius: 5px;
+	border: 2px solid green;
+	max-width: 5%;
+	min-width: 5%;
+	max-height: 20px;
+	min-height: 20px;
+	list-style:  none;
+	background: rgba(255, 255, 255, 0.5);
+}
+.explanation_value {
+	border-radius: 5px;
+	border: 2px solid green;
+	max-width: 50%;
+	min-width: 50%;
+	max-height: 30px;
+	min-height: 30px;
+	list-style:  none;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.additional_value {
+	border-radius: 5px;
+	border: 2px solid green;
+	max-width: 75%;
+	min-width: 75%;
+	max-height: 50px;
+	min-height: 50px;
+	list-style:  none;
+	background: rgba(255, 255, 255, 0.5);
+}
+	
+button { 
+	background: green;
+	border-radius: 5px;
+	border: none;
+	font-size: 14px;
+	padding: 8px;
+}

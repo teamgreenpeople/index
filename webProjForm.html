@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WSU Green Fee</title>
+        <meta name="description" content="green fee website">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+		<div class="heading">
+			<img scr="logo.png" alt="logo">
+		</div>
+    	<form class="form" action="/path_to_send_data" method="post">
+			<div class="instruction">
+				<p><strong>Instructions:</strong> Please fill in answers to the the following 10 questions. You may copy and paste your text from another document, if you wish. </p>
+			</div>
+			<ul class="questions">
+				<li>
+					<label class="question_label" for="description">Step 1: Project Description.</label>
+					<div class="">
+					<p class="question_description">Provide a summary of your project.</p>
+					<textarea class="question_value description" name="description"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="endorsement">Step 2: Student Input and Endorsement</label>
+					<p class="question_description">How has your project sought student input and endorsement? This could include focus groups, presentation to the SGA Student Sustainability Committee, student org endorsement, etc.</p>
+					<textarea class="question_value endorsement" name="endorsement"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="outcome">Step 3: Anticipated Outcomes/Impact.</label>
+					<p class="question_description">What outcomes do you anticipate? Discuss environmental benefits, impact on the student experience, and the education and outreach potential. If the project has environmental benefits, please quantify those benefits in terms of kilowatt-hours saved, tons of greenhouse gas emissions reduced, gallons of stormwater treated, etc.</p>
+					<textarea class="question_value outcome" name="outcome"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="benchmarking">Step 4: Project Benchmarking.</label>
+					<p class="question_description">Have similar projects been implemented on other campuses? Have they been successful? How does this project differ?</p>
+					<textarea class="question_value benchmarking" name="benchmarking"></textarea>
+				</li>
+				<li>
+					<label class="question_label" for="accountability">Step 5: Accountability.</label>
+					<p class="question_description">How will you measure and evaluate your project’s progress and success?</p>
+					<textarea class="question_value accountabilty" name="accountability"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="costSaving">Step 6: Cost Savings.</label>
+					<p class="question_description">Will the project result in expected cost savings? If yes, what is the payback period?</p>
+					<textarea class="question_value costSaving" name="costSaving"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="projectSelfSuff">Step 7: Project Self Sufficiency.</label>
+					<p class="question_description">Will the project result in expected cost savings? If yes, what is the payback period?</p>
+					<textarea class="question_value projectSelfSuff" name="projectSelfSuff"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="lifespan">Step 8: Project Lifespan. </label>
+					<p class="question_description">What is the expected lifespan of the project? Who will be responsible for overseeing it during that time?</p>
+					<textarea class="question_value projectLifespan" name="lifespan"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="SustAccount">Step 9:Project Sustainability/Accountability </label>
+					<p class="question_description">How will you ensure the sustained existence/maintenance of this project (including reporting requirements) once you are no longer involved? If the project will conclude while you are involved, what will happen to the materials purchased for the project and how will you return the project site to its original condition? </p>
+					<textarea class="question_value projectSustAccount" name="SustAccount"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="potenial">Step 10: Potenial. </label>
+					<p class="question_description">How can your project be scaled for broader campus application beyond the initial phase?</p>
+					<textarea class="question_value Potenial" name="potenial"></textarea>
+				</li>
+				
+			</ul>
+			<button type=submit>submit!</button>
+		</form>
+	</body>
+</html>
